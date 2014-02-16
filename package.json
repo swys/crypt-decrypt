@@ -1,0 +1,20 @@
+{
+  "name": "crypt-decrypt",
+  "version": "0.0.0",
+  "description": "stream wrapper around node's cryto 'createCipher' (Encrypt) and 'createDecipher' (Decrypt) methods",
+  "main": "index.js",
+  "scripts": {
+    "test": "set -e; for t in test/*.js; do node $t; done"
+  },
+  "keywords": [
+    "encrypt",
+    "decrypt",
+    "crypto",
+    "stream"
+  ],
+  "author": "swys <abacus822@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "tape": "~2.4.2"
+  }
+}
